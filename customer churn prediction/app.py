@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load the trained model
-with open("house_price_model.pkl", "rb") as model_file:
+with open("churn_model.pkl", "rb") as model_file:
     model = pickle.load(model_file)
 
 st.title("📊 Customer Churn Prediction")
